@@ -1,3 +1,12 @@
+GIT
+  remote: git://github.com/globalize/globalize.git
+  revision: abe7786f4cc7edeafbfdda2863c6d17ca7e744d0
+  specs:
+    globalize (5.1.0)
+      activemodel (>= 4.2, < 5.1)
+      activerecord (>= 4.2, < 5.1)
+      request_store (~> 1.0)
+
 GEM
   remote: http://rubygems.org/
   specs:
@@ -26,10 +35,6 @@ GEM
     builder (3.0.4)
     erubis (2.7.0)
     git (1.2.5)
-    globalize (3.0.1)
-      activemodel (>= 3.0.0)
-      activerecord (>= 3.0.0)
-      paper_trail (~> 2)
     hike (1.2.3)
     i18n (0.6.1)
     jeweler (1.8.4)
@@ -82,7 +87,7 @@ PLATFORMS
 DEPENDENCIES
   activesupport
   bundler
-  globalize (~> 3.0.0)
+  globalize
   jeweler (~> 1.8.3)
   rcov (= 0.9.11)
   rdoc (~> 3.12)
